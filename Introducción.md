@@ -34,5 +34,5 @@ las relaciones de ancestría-descendencia en hongos?
 2. No existen una especie que sea la cumbre en la evolución, el hombre no es el ser más evolucionado que existe (visión antropocentrista).
 ![tree-of-life_2000.jpg](tree-of-life_2000.jpg)
 
-3. La biología molecular no tiene la última palabra en la reconstrucción filogenética, es una herramienta más
-4. La morfología no está peleada con lo que nos dicen sus moléculas
+3. La biología molecular no tiene la última palabra en la reconstrucción filogenética, es una herramienta más.
+4. La morfología no está peleada con lo que nos dicen sus moléculas.
