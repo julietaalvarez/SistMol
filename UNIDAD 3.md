@@ -76,3 +76,38 @@ EJERCICIO: Del árbol que dibujaron al principio, asuman que: F, E, A, D y C for
 - Las politomías que se usan para comunicar incertidumbre en la topología del árbol se llaman **politomías suaves**.
 - Cuando generamos varios árboles que nos cuentan diferentes historias evolutivas, podemos generar **árboles de consenso estricto**. Estos árboles son compuestos por clados que existen en todos los árboles. (dibujito)
 >Para interpretar de manera correcta la topología de un árbol cuando hay politomías, lo mejor es considerarlas como incertidumbres con una probabilidad de que se trate de unas politomías duras.
+- Cuando tenemos análisis con datos reales contamos con **niveles de soporte en cada rama**, que nos ayuda a inferir si las politomías son duras o suaves. Estos valores son anotaciones en el árbol que nos indican el grado de confianza.
+- La medida más comúnmente utilizada es el **porcentaje de *bootstrap* ** (que va del 1 al 100%) y la **probabilidad posterior** (que va del 0 al 1.0)
+- Entre más grande sea el valor, mayor será su nivel de soporte de esa rama.
+>El ***threshold*** (valor de corte) es subjetivo, sin embargo la mayoría toma el >80% de bootstrap o >0.95 de probabilidad posterior, como un buen soporte.
+
+![bootstrap1.png](bootstrap1.png)
+![bootstrap.jpeg](bootstrap.jpeg)
+
+
+###3.6 Árboles sin raíz###
+
+- Los árboles enraizados contienen información que nos permite entender el patrón de descendencia de un ancestro en común, y la dirección de la evolución de los caracteres.
+
+![unrooted.png](unrooted.png)
+
+- Los árboles sin raíz no tienen definida la raíz. En estos árboles las ramas representan linajes evolutivos, pero sin raíz, no se sabemos cuál es el camino que la evolución ha tomado a lo largo de los linajes.
+- Como los clados comprenden a el ancestro y todos sus descendientes, necesitamos informaciónn sobre el origen para encontrar los clados.
+- Más adelante vamos a aprender a decidir cómo y con qué enraizar nuestros árboles. Sólo para recordarles, siempre debemos tratar de enraizar con **grupos hermanos (*outgroup*)**
+
+###3.7 Distancia entre árbol-árbol###
+
+(Dibujito)
+
+- En el caso del dibujo la mejor forma de comparar topologías es contar el número de cambios que hay entre un árbol y otro
+- Existen métodos para hacer arreglos en los árboles, como el ***subtree pruning and regrafting*** (SPR)
+
+![Tree_pruning.jpg](Tree_pruning.jpg)
+
+- Con esta herramienta es posible convertir el árbol en una topología completamente distinta haciendo una serie de SPR
+
+
+ ```
+Tarea: Resolver páginas de 68 a 75 del libro de [Tree Thinking](http://www.botanicaamazonica.wiki.br/labotam/lib/exe/fetch.php?media=bib:baumsmith2013_tree_thinking_book.pdf)
+
+ ```
