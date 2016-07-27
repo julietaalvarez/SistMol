@@ -28,15 +28,16 @@ las relaciones de ancestría-descendencia en hongos?
 - Además de conocer la historia del linaje de alguna especie o de los caracteres de un organismo, también podemos conocer la historia de los genes. Los genes también se pueden asignar a categorías como familias o subfamilias de genes.
 
 >**IDEAS QUE DEBEMOS QUITARNOS ANTES DE SEGUIR CON EL CURSO**
-1. La evolución no es una escalera (ladder thinking), hay que recordar que hay especies extintas que fueron ancestros sólo de algunas de las especies que hoy existen.
+
+>1. La evolución no es una escalera (ladder thinking), hay que recordar que hay especies extintas que fueron ancestros sólo de algunas de las especies que hoy existen.
 
 ![ladder thinking.jpg](ladder thinking.jpg)
 
 
-2. No existen una especie que sea la cumbre en la evolución, el hombre no es el ser más evolucionado que existe (visión antropocentrista).
+>2. No existen una especie que sea la cumbre en la evolución, el hombre no es el ser más evolucionado que existe (visión antropocentrista).
 
 ![tree-of-life_2000.jpg](tree-of-life_2000.jpg)
 
 
-3. La biología molecular no tiene la última palabra en la reconstrucción filogenética, es una herramienta más.
-4. La morfología no está peleada con lo que nos dicen sus moléculas.
+>3. La biología molecular no tiene la última palabra en la reconstrucción filogenética, es una herramienta más.
+>4. La morfología no está peleada con lo que nos dicen sus moléculas.
