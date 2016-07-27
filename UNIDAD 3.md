@@ -55,3 +55,24 @@ EJERCICIO: Del árbol que dibujaron al principio, asuman que: F, E, A, D y C for
 - Muchas veces los fósiles ayudan a datar los nodos de los cronogramas.
 
 ![clock.jpg](clock.jpg)
+
+###3.4 Longitud de las ramas y tasa de evolución###
+
+- Como ya dijimos, los árboles nos ayudan a inferir relaciones evolutivas y delimitar grupos taxonómicos. 
+- También la longitud de las ramas nos ayuda a entender la **cantidad de cambio** que se ha producido en ese grupo. Entre más cambio evolutivo haya sucedido, las ramas serán sustancialmente más largas. 
+- En algunos casos es suficiente con poner las ramas de diferente longitud y poner escalas de tiempo (como en los cronogramas). Sin embargo también existen árboles donde se dibujan las ramas para expresar el promedio de cambios que han ocurrido en los caracteres de ese grupo; a estos árboles se les llama **filogramas**.
+- La longitud de las ramas en los filogramas están relacionados a un set específico de datos; comúnmente son secuencias de genes que se usan para inferir el árbol (como lo veremos más adelante).
+
+
+###3.5 Incertidumbre en la filogenia###
+
+- Hasta ahora todos los árboles que hemos dibujado son **binarios**, es decir que el linaje ancestral dio orgen a dos linajes. Los árboles que son completamente binarios se les conoce como **completamente resueltos**. 
+- Sin embargo puede que un ancestro de origen a más de dos linajes, a esto se le llama **politomía**. 
+- Si los nodos politómicos son reales entonces se dice que es una **politomía dura**. 
+>OJO: Generalemente las politomías indican incertidumbre en que sea correcto el patrón de ramificación.
+
+![polytomies.gif](polytomies.gif)
+
+- Las politomías que se usan para comunicar incertidumbre en la topología del árbol se llaman **politomías suaves**.
+- Cuando generamos varios árboles que nos cuentan diferentes historias evolutivas, podemos generar **árboles de consenso estricto**. Estos árboles son compuestos por clados que existen en todos los árboles. (dibujito)
+>Para interpretar de manera correcta la topología de un árbol cuando hay politomías, lo mejor es considerarlas como incertidumbres con una probabilidad de que se trate de unas politomías duras.
