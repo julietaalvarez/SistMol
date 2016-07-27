@@ -107,7 +107,7 @@ EJERCICIO: Del árbol que dibujaron al principio, asuman que: F, E, A, D y C for
 - Con esta herramienta es posible convertir el árbol en una topología completamente distinta haciendo una serie de SPR
 
 
- ```
-Tarea: Resolver páginas de 68 a 75 del libro de [Tree Thinking](http://www.botanicaamazonica.wiki.br/labotam/lib/exe/fetch.php?media=bib:baumsmith2013_tree_thinking_book.pdf)
 
- ```
+>Tarea: Resolver páginas de 68 a 75 del libro de [Tree Thinking](http://www.botanicaamazonica.wiki.br/labotam/lib/exe/fetch.php?media=bib:baumsmith2013_tree_thinking_book.pdf)
+
+
