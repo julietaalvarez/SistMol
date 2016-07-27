@@ -21,7 +21,10 @@ Las especies suelen vivir en la misma parte que sus parientes más cercanos y ge
 Los fósiles más antiguos son más diferentes de las especies vivas, que los fósiles más recientes. Algunos fósiles transicionales aparecen entre diferentes especies actuales.
 
 
->El entomólogo **Willi Henning** (1913-1976) y el botánico **Walter Zimmerman** (1892-1980) durante los 1930’s a 60’s desarrollaron un sistema taxonómico llamado **sistemática filogenética**. Sus fundamentos son: 
-1) elucidar el árbol verdadero usando la observación de los caracteres de los organismos. 
+El entomólogo **Willi Henning** (1913-1976) y el botánico **Walter Zimmerman** (1892-1980) durante los 1930’s a 60’s desarrollaron un sistema taxonómico llamado **sistemática filogenética**. Sus fundamentos son: 
+
+1) elucidar el árbol verdadero usando **la observación de los caracteres** de los organismos. 
+
 2) el grado de relación entre organismos se debe entender en términos de tener un ancestro común. 
-3) las relaciones filogenéticas deben ser la base de la clasificación biológica (en negritas). La manera de clasificar se basaba meramente en similitud observable; y fue *hasta 1980’s-90’s* cuando los métodos sobre inferencia filogenética *desarrollaron métodos estadísticos* en computadora, que permitieron hacer comparaciones numéricas.
+
+3) **las relaciones filogenéticas deben ser la base de la clasificación biológica**. La manera de clasificar se basaba meramente en similitud observable. *Hasta 1980’s-90’s* los métodos sobre inferencia filogenética *desarrollaron métodos estadísticos* en computadora, que permitieron hacer comparaciones numéricas.
