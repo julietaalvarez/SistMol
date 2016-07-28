@@ -60,3 +60,19 @@ Tomada de Lassoe & Hansen (2007)
  ![Tpseudo.jpg](Tpseudo.jpg)
  
 Tomada de Ramírez-López et al. 2015
+
+###4.4 Homoplasia y consistencia###
+- La **homoplasia** se da cuando los estados de caracter se encuentran en más de un grupo dentro de un árbol. La convergencia evolutiva es un tipo de homoplasia.
+>OJO: Homología *NO* es lo opuesto a homoplasia. Homología se refiere a la relación entre caracteres en diferentes taxa, mientras que homoplasia se refiere a la relación entre la variación de los caracteres en un árbol en específico.
+
+- La **consistencia** es lo opuesto a la homoplasia. Un caracter es consistente cuando evoluciona sin cambios extra o cambios de estado. 
+
+>Por ejemplo: píleo rojo o píleo azul; sólo hay un cambio entre ellos
+
+- La consistencia se mantiene si el número de cambios de caracter es uno menos que el número de estados de caracter.
+
+- Una forma útil de cuantificar la consistencia es usando el ***consistency index* (CI)**. Este índice reporta el número de cambios mínimos necesarios para explicar la evolución de los caracteres (**Lmin**), que es uno menos que el número de estados de caracter; dividido entre el número de cambios de estado observados (**Lobs**).
+
+ ```
+CI=Lmin/Lobs
+ ```
