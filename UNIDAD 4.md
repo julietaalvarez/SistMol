@@ -28,3 +28,17 @@ Tomada de Lassoe & Hansen (2007)
 - En este sentido hay caracteres que son **plesiomórficos**, es decir estados de caracter ancestrales y **apomórficos**, estados de caracter derivados. Los estados de caracter derivados compartidos se llaman **sinapormorfias**.  Y los grupos que comparten estados de caracter ancestrales se conocen como **simplesiomorfias**.
 
 >Debemos tener como objetivo *siempre encontrar sinapormofias*, evidenemente asociados a grupos monofiléticos.
+
+###4.2 Evolución de secuencias de DNA###
+- El *fenotipo* siempre es el resultado de los cambios en el DNA, mientras que *no todos los cambios en el DNA son visibles*. 
+- Prácticamente todos los cambios en el fenotipo son heredables y son atribuidos a cambios en el DNA.
+- Recordemos que la doble cadena del DNA está compuesta de nucleótidos. Si tenemos una copia idéntica de la posición de los nucleótidos en todos los descendientes, hablamos de **homología**.
+- La replicación del DNA es imperfecta, lo que puede generar mutaciones puntuales en las posiciones de nucleótidos. Si el nucleótido es reemplazado por uno distinto le llamamos **sustitución**.
+
+ ![substitution.jpg](substitution.jpg)
+
+- También podemos encontrar en las secuencias **deleciones**, es decir pérdida de nucleótidos o **inserciones**. 
+
+>Cuando hacemos alineamientos a las inserciones/deleciones se les llama ***indel***.
+
+- Tanto las sustituciones como caracteres morfológicos son interpretados como evidencia independiente de la estructura del "árbol verdadero".
