@@ -54,7 +54,9 @@ Tomada de Lassoe & Hansen (2007)
 >Recuerden que la homología se basa en tener un ancestro en común, no similitud. Por ejemplo:
 
  ![Thelephora.jpg](Thelephora.jpg)
+ ***Thelephora versatilis* Ramírez-López & Villegas** 
  ![Tversa.jpg](Tversa.jpg)
+ ***Thelephora pseudoversatilis* Ramírez-López & Villegas** 
  ![Tpseudo.jpg](Tpseudo.jpg)
  
 Tomada de Ramírez-López et al. 2015
