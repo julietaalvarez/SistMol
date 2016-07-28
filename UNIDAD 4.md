@@ -19,6 +19,7 @@ Ejercicio: sugieran caracteres y estados de caracter de su hongo favorito
 
 ![sequestrate_evolution.gif](sequestrate_evolution.gif)
 ![truffle.gif](truffle.gif)
+
 Tomada de Lassoe & Hansen (2007)
 
 ###4.1 Estados de caracter ancestrales y derivados###
@@ -42,3 +43,18 @@ Tomada de Lassoe & Hansen (2007)
 >Cuando hacemos alineamientos a las inserciones/deleciones se les llama ***indel***.
 
 - Tanto las sustituciones como caracteres morfológicos son interpretados como evidencia independiente de la estructura del "árbol verdadero".
+
+###4.3 Introducción a la homología###
+- Como dijimos antes, en las secuencias de DNA se considera homología sino hay sustituciones. Sin embargo, la morfología no tiene que ser completamente idéntica a su ancestro; aunque los caracteres fenotípicos son heredables.
+
+-También existen caracteres que evolucionan de manera independiente en dos organismos distintos, a lo cual llamados **convergencia evolutiva**. No es homología.
+
+- Hay casos donde este caracter que parece ser **autapomorfias** (caracteres derivados únicos), en realidad podrían tratarse de **reversiones** de un estado ancestral.
+
+>Recuerden que la homología se basa en tener un ancestro en común, no similitud. Por ejemplo:
+
+ ![Thelephora.jpg](Thelephora.jpg)
+ ![Tversa.jpg](Tversa.jpg)
+ ![Tpseudo.jpg](Tpseudo.jpg)
+ 
+Tomada de Ramírez-López et al. 2015
