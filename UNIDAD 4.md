@@ -121,3 +121,30 @@ Pregunta: ¿Cuántas terminales y caracteres usarán en sus tesis?
 
 - Si tuviéramos una matriz de caracteres morfológicos, tendríamos que codificar en números que nos den alguna información de cada terminal. Las terminales que tuvieran múltiples estados de caracter se les conoce como **polimórficos**.
 - En las matrices de caracteres moleculares no es necesaria la codificación, pues tenemos únicamente 4 estados de caracter (A, C, G o T). En estas matrices podemos encontrar ***gaps***, los cuales indican inserciones o deleciones. Para establecer homología en los caracteres moleculares debemos hacer **alineamiento de secuencias**.
+
+
+```
+Ejercicio de alineamiento: 
+1. Descargar el programa [PhyDE](http://www.phyde.de/download.html) e instalarlo
+2. Descargar el programa [Notepad ++](https://notepad-plus-plus.org/download/v6.9.2.html) e instalarlo
+3. Mientras se instalan bajen de *nucleotide NCBI* las secuencias en formato FASTA: KU985206,  KU248114, KU248106
+
+![fasta.png](fasta.png)
+
+4. Abran las secuencias FASTA con Notepad ++ y vamos a editar los nombres de las secuencias dejando el código de acceso, el nombre de la especie y todos los espacios los vamos a sustituir con "_", hasta dejarlas así: 
+
+![nombres.png](nombres.png)
+
+5. Ingresen a la página de *Multiple alignment program for amino acid or nucleotide sequences* [MAFFT](http://mafft.cbrc.jp/alignment/server/index.html)
+
+![mafft.png](mafft.png)
+
+6. Descarguen el alineamiento en formato PAUP| Nexus
+
+![mafft2.png](mafft2.png)
+
+7. Ahora abran el alineamiento con PhyDE y ¡vamos a alinear!
+
+ ```
+
+- En parsimonia la homoplasia no es viable. Si permitimos homoplasia entonces no podremos reconciliar una matriz de datos con ningún árbol. Si esto sucede necesitaremos el **criterio de optimalidad**, una medida que nos ayuda a definir cuáles son los mejores y peores árboles. Actualmente este criterio ha sido reemplazado por la **máxima parsimonia**.
