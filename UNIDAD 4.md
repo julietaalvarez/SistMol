@@ -76,3 +76,17 @@ Tomada de Ramírez-López et al. 2015
  ```
 CI=Lmin/Lobs
  ```
+ 
+![CI.png](CI.png)
+Tomado de Tree thinking
+
+- También existe el **índice de retención (RI)** que también es ampliamente usado. Este corrige el número máximo de pasos que el caracter puede tener en un árbol (Lmax).
+
+```
+RI=(Lmax - Lobs)/(Lmax - Lmin)
+ ```
+> Muchas veces se prefiere el RI ya que usa un rango del 0 al 1.
+
+- Ambos índices proveen una forma de medir la concordancia entre los caracteres y el árbol. **Entre más alto sea el CI o RI, hay MENOS homoplasia implicada**.
+
+- Para poder encontrar al árbol verdadero (el que exprese las relaciones de ancestro-descendiente) podemos usar el árbol que tenga el mayor promedio de CI (**"el árbol más parsimonioso"**)
