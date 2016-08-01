@@ -125,6 +125,7 @@ Pregunta: ¿Cuántas terminales y caracteres usarán en sus tesis?
 
 ```
 Ejercicio de alineamiento: 
+ ```
 1. Descargar el programa [PhyDE](http://www.phyde.de/download.html) e instalarlo
 2. Descargar el programa [Notepad ++](https://notepad-plus-plus.org/download/v6.9.2.html) e instalarlo
 3. Mientras se instalan bajen de *nucleotide NCBI* las secuencias en formato FASTA: KU985206,  KU248114, KU248106
@@ -145,6 +146,6 @@ Ejercicio de alineamiento:
 
 7. Ahora abran el alineamiento con PhyDE y ¡vamos a alinear!
 
- ```
+
 
 - En parsimonia la homoplasia no es viable. Si permitimos homoplasia entonces no podremos reconciliar una matriz de datos con ningún árbol. Si esto sucede necesitaremos el **criterio de optimalidad**, una medida que nos ayuda a definir cuáles son los mejores y peores árboles. Actualmente este criterio ha sido reemplazado por la **máxima parsimonia**.
