@@ -90,3 +90,34 @@ RI=(Lmax - Lobs)/(Lmax - Lmin)
 - Ambos índices proveen una forma de medir la concordancia entre los caracteres y el árbol. **Entre más alto sea el CI o RI, hay MENOS homoplasia implicada**.
 
 - Para poder encontrar al árbol verdadero (el que exprese las relaciones de ancestro-descendiente) podemos usar el árbol que tenga el mayor promedio de CI (**"el árbol más parsimonioso"**)
+
+###4.5 Parsimonia para inferir la historia de los caracteres###
+
+- Una vez que tenemos un árbol, tenemos ***inferencias*** de cómo han sido los cambios evolutivos de los caracteres.
+
+- La parsimonia es un criterio sencillo para evaluar la evolución de los caracteres, y cómo estos nos ayudan a reconstruir la historia filogenética.
+
+>Por ejemplo:
+
+![Tomentella.png](Tomentella.png)
+Tomado de Alvarez-Manjarrez et al. 2016
+
+- La historia más plausible por aplicar es la del **principio de parsimonia**, es decir, el patrón observado requiere el mínimo número de orígenes (o pérdidas) evolutivos.
+
+> Para hacer inferencias filogenéticas sea cual sea nuestro método, debemos:
+1. construir una matriz de datos
+2. idenfiticar cuál es el árbol más compatible con nuestra matriz
+3. correr análisis estadísticos para evaluar la confianza de nuestras conclusiones
+
+- Para poder construir una matriz adecuada debemos decidir cuántas terminales incluiremos y cuántos caracteres incluiremos de cada terminal.
+
+ ```
+Pregunta: ¿Cuántas terminales y caracteres usarán en sus tesis?
+ ```
+
+> Antes de los 90's todos los análisis filogenéticos usaban caracteres morfológicos. Hoy en día se pueden tomar caracteres moleculares, ecológicos, fisiológicos, etc.
+
+- Otra de las cosas a considerar para armar una matriz es el **grupo externo**. Estos sirven como punto de comparación entre los que están dentro del grupo de estudio; para dar una raíz y determinar la polaridad de los caracteres.
+
+- Si tuviéramos una matriz de caracteres morfológicos, tendríamos que codificar en números que nos den alguna información de cada terminal. Las terminales que tuvieran múltiples estados de caracter se les conoce como **polimórficos**.
+- En las matrices de caracteres moleculares no es necesaria la codificación, pues tenemos únicamente 4 estados de caracter (A, C, G o T). En estas matrices podemos encontrar ***gaps***, los cuales indican inserciones o deleciones. Para establecer homología en los caracteres moleculares debemos hacer **alineamiento de secuencias**.
