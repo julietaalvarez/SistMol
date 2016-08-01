@@ -156,3 +156,44 @@ Ejercicio de alineamiento:
 3. Repetimos lo anterior en árboles alternativos e identificamos el árbol **más corto** o **más parsimonioso**.
 
 ![maxpars.png](maxpars.png)
+
+####4.5.2 Encontrando el árbol óptimo####
+
+- En el ejemplo anterior teníamos 4 terminales, lo que nos da un número pequeño de posibles árboles; entre más terminales tenemos, mayor número de árboles se pueden generar.
+
+ ```
+La forma en que crecen la cantidad de árboles cuando aumentamos terminales es:
+(2n-3)!/[2^n-2 x (n-2)!]
+ ```
+
+- Necesitamos un gran poder computacional para poder resolver los análisis de estadísticos árboles con >10 terminales.
+- Para los análisis grandes se han desarrollado las **búsquedas heurísticas** que no garantiza encontrar el árbol óptimo, pero sí uno muy cercano.
+
+>Antes de continuar debe quedarnos claro lo que es el **universo** de árboles.  Este universo es multidimensional: cada dimensión corresponde a la distancia de cada árbol comparado con el resto de los árboles; además de la calidad del árbol (más parsimonioso).
+
+![treespace.gif](treespace.gif)
+
+- Los programas computacionales deben permitir buscar en el universo de árboles, usando algoritmos *hill-climbing*. Estos algoritmos pueden encontrar óptimos locales pero su finalidad es buscar el óptimo global.
+
+- En las filogenias moleculares de parsimonia hay matrices que califican las **transiciones** y **transversiones**.
+
+![fitch.png](fitch.png)
+
+ ```
+Otro ejercicio
+ ```
+1. Descarga el programa [Mesquite](http://mesquiteproject.wikispaces.com/installation) e instálalo
+2. Descarga el programa [TNT](http://www.zmuc.dk/public/phylogeny/tnt/) e instálalo
+3. El archivo de las secuencias de *Amanita* que previamente alineamos ábrelo con Mesquite y expórtalo como: "amanita.tnt"
+4. Guarda amanita.tnt en la carpeta de TNT. Abre TNT y carga el archivo amanita.tnt
+5. Ahora vamos a correr un análisis de parsimonia con *Traditional search* y otro con *New Technology search*. Nuestro grupo externo va a ser *Amanita muscaria*.
+
+####4.5.3 Desventajas de la parsimonia####
+- No toma en cuenta la longitud de las ramas: si en la filogenia se encuentran ramas cortas y otras largas, la parsimonia cometerá errores como la **atracción de las ramas largas**. Y cometerá más errores conforme estas características aumenten.
+- La parsimonia siempre requiere que demos peso a los caracteres y esto generalemten afectan las conclusiones. (No existe un buen método para ponderar caracteres)
+- Actualmente la comunidad científica puede aceptar análsis de parsimonia si se conoce poco sobre la evolución del grupo, pero generalmente se esperan análisis de **máxima verosimilitud** o **métodos bayesianos**.
+
+
+ ```
+Tarea: Descarguen 5 secuencias de su(s) hongo(s) de interés y alineanlas para la siguiente clase. Incluyan un grupo externo.
+ ```
