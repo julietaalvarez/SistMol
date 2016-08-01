@@ -146,6 +146,13 @@ Ejercicio de alineamiento:
 
 7. Ahora abran el alineamiento con PhyDE y ¡vamos a alinear!
 
-
+>OJO: además de MAFFT existen otros programas de alineamiento con diferentes algoritmos, por ejemplo: CLUSTALx, Muscle, TCOFFEE, FAS, etc.
 
 - En parsimonia la homoplasia no es viable. Si permitimos homoplasia entonces no podremos reconciliar una matriz de datos con ningún árbol. Si esto sucede necesitaremos el **criterio de optimalidad**, una medida que nos ayuda a definir cuáles son los mejores y peores árboles. Actualmente este criterio ha sido reemplazado por la **máxima parsimonia**.
+
+####4.5.1 Criterio de máxima parsimonia####
+1. En un árbol, consideramos todos los caracteres y determinamos el mínimo número de cambios en cada estado de caracter (**pasos**), que son requeridos para considerar la distribución de los estados a lo largo de las ramas.
+2.  Sumamos el número de pasos requeridos por cada caracter. El número de pasos requeridos para explicar la evolución del caracter se conoce como **longitud del árbol**.
+3. Repetimos lo anterior en árboles alternativos e identificamos el árbol **más corto** o **más parsimonioso**.
+
+![maxpars.png](maxpars.png)
