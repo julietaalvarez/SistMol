@@ -9,6 +9,16 @@ Caracteres de diferentes especies muestran similitudes estructurales, a pesar de
 
 ![honology.jpeg](honology.jpeg)
 
+>Un ejemplo sería la familia Russulaceae
+***Lactarius deliciosus***
+![Lactarius_deliciosus.jpg](Lactarius_deliciosus.jpg)
+***Lactifluus sudanicus***
+![Lactifluus-sudanicus.png](Lactifluus-sudanicus.png)
+***Russula brevipes***
+![Russula_brevipes.gif](Russula_brevipes.gif)
+***Russula romagnesiana***
+![Russula_romagnesiana.gif](Russula_romagnesiana.gif)
+
 **Similitudes moleculares**
 Diferentes especies tienen numerosas similitudes moleculares que incluyen caracteres generales, como tener los mismos ácidos nucleicos y proteínas, o la presencia de genes de composición muy similar
 
