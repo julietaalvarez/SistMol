@@ -70,6 +70,7 @@ EJERCICIO: Del árbol que dibujaron al principio, asuman que: F, E, A, D y C for
 - Hasta ahora todos los árboles que hemos dibujado son **binarios**, es decir que el linaje ancestral dio orgen a dos linajes. Los árboles que son completamente binarios se les conoce como **completamente resueltos**. 
 - Sin embargo puede que un ancestro de origen a más de dos linajes, a esto se le llama **politomía**. 
 - Si los nodos politómicos son reales entonces se dice que es una **politomía dura**. 
+
 >OJO: Generalemente las politomías indican incertidumbre en que sea correcto el patrón de ramificación.
 
 ![polytomies.gif](polytomies.gif)
