@@ -27,12 +27,16 @@ las relaciones de ancestría-descendencia en hongos?
 - Al definir la relación de ancestro común nos permite crear un **significado evolutivo en los sistemas taxonómicos**. Si logramos ponerle historia evolutiva a la taxonomía, entonces los taxa relacionados tendrán caracteres en común. 
 
 >Un ejemplo sería la familia Russulaceae
+
 ***Lactarius deliciosus***
 ![Lactarius_deliciosus.jpg](Lactarius_deliciosus.jpg)
+
 ***Lactifluus sudanicus***
 ![Lactifluus-sudanicus.png](Lactifluus-sudanicus.png)
+
 ***Russula brevipes***
 ![Russula_brevipes.gif](Russula_brevipes.gif)
+
 ***Russula romagnesiana***
 ![Russula_romagnesiana.gif](Russula_romagnesiana.gif)
 
