@@ -71,7 +71,7 @@ EJERCICIO: Del árbol que dibujaron al principio, asuman que: F, E, A, D y C for
 - Sin embargo puede que un ancestro de origen a más de dos linajes, a esto se le llama **politomía**. 
 - Si los nodos politómicos son reales entonces se dice que es una **politomía dura**. 
 
->OJO: Generalemente las politomías indican incertidumbre en que sea correcto el patrón de ramificación.
+>OJO: Generalemente las politomías indican incertidumbre de que sea correcto el patrón de ramificación.
 
 ![polytomies.gif](polytomies.gif)
 
