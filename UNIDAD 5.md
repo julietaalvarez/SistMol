@@ -19,3 +19,4 @@ Esa velocidad de cambio es una tasa de cambio a la cual llamamos  **μ**.
 Si asumimos que μ=0.6 por minuto, entonces en una hora tendremos 36 cambios (0.6x60 min). Aunque haya momentos en que vaya más rápido y otros más lento.
 Si observamos durante mucho tiempo la misma posición es probable que veamos los cuatro palos.
 ```
+![baraja2.png](baraja2.png)
