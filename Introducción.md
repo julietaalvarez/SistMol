@@ -12,8 +12,11 @@
 >*OJO*: siempre se debe tener cuidado entre las interpretaciones de la ancestría-descendencia de los caracteres (por ejemplo: los hongos clavarioides).
 
 ![Xylaria-hypoxylon.jpg](Xylaria-hypoxylon.jpg)
+
 ![Clavulina_cinerea.jpg](Clavulina_cinerea.jpg)
+
 ![Clavulinopsis_corallinorosacea.jpg](Clavulinopsis_corallinorosacea.jpg)
+
 ![Ramaria_rubricarnata_verna.jpg](Ramaria_rubricarnata_verna.jpg)
 
 ```
