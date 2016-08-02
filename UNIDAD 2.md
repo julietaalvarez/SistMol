@@ -27,7 +27,7 @@ Las especies suelen vivir en la misma parte que sus parientes más cercanos y ge
 
 ![geogra.png](geogra.png)
 
-***Fósiles ***
+***Fósiles***
 Los fósiles más antiguos son más diferentes de las especies vivas, que los fósiles más recientes. Algunos fósiles transicionales aparecen entre diferentes especies actuales.
 
 
