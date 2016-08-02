@@ -1,6 +1,6 @@
 ##UNIDAD 2. IMPORTANCIA DE LA SISTEMÁTICA EN LA EVOLUCIÓN
 
-- Una tarea importante es **encontrar la evidencia de la evolución y la ancestría en común**
+- Una tarea importante de la sistemática es **encontrar la evidencia de la evolución y la ancestría en común**
 
 ####Algunas clases de evidencia####
 
