@@ -27,7 +27,7 @@ EJERCICIO: Ahora ustedes dibujen este árbol (H((GB)(F((EA)(DC)))))
 ###3.2 “*Merging* y *pruning*” (fusión y poda)###
 
 
-- Muchas veces contamos con árboles grandes que no nos sirven para trabajar, por lo que las herramientas de merging y pruning nos ayudan a simplificar los árboles.
+- Muchas veces contamos con árboles grandes que no nos sirven para trabajar, por lo que las herramientas de *merging* y *pruning* nos ayudan a simplificar los árboles.
 
 - El *pruning* (poda) no afecta las relaciones de ancestría-descendencia:
 
