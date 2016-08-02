@@ -29,15 +29,19 @@ las relaciones de ancestría-descendencia en hongos?
 >Un ejemplo sería la familia Russulaceae
 
 ***Lactarius deliciosus***
+
 ![Lactarius_deliciosus.jpg](Lactarius_deliciosus.jpg)
 
 ***Lactifluus sudanicus***
+
 ![Lactifluus-sudanicus.png](Lactifluus-sudanicus.png)
 
 ***Russula brevipes***
+
 ![Russula_brevipes.gif](Russula_brevipes.gif)
 
 ***Russula romagnesiana***
+
 ![Russula_romagnesiana.gif](Russula_romagnesiana.gif)
 
 - Una vez que se tiene definido cómo se hará el árbol, se puede complementar *anotando en las ramas los caracteres* de cada taxa.
