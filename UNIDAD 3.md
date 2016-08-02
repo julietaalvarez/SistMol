@@ -3,7 +3,7 @@
 - Vamos a hacernos una imagen de cómo va sucediendo le evolución (imagen de entrecruzamiento). 
 
 - Durante la evolución los linajes suelen divergir o “separarse”. A esto se le conoce como **cladogénesis** (génesis=origen, clados=ramas). 
-- Los linajes nuevos se toman como especies, a lo que llamaríamos entonces un **evento de especiación**. La formación de nuevos linajes se puede dar por aislamiento geográfico (**especiación alopátrica**), por especialización ecológica (**simpátrica**).
+- Los linajes nuevos se toman como especies, y estos linajes nuevos son generados a partir de un **evento de especiación**. La formación de nuevos linajes se puede dar por aislamiento geográfico (**especiación alopátrica**), por especialización ecológica (**simpátrica**).
 
 
 ###3.1 Terminología de los árboles###
