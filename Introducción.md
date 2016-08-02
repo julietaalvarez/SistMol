@@ -24,7 +24,17 @@ Pregunta: ¿Cuáles son los caracteres morfológicos que nos pueden ayudar a con
 las relaciones de ancestría-descendencia en hongos?
 ```
 
-- Al definir la relación de ancestro común nos permite crear un **significado evolutivo en los sistemas taxonómicos**. Si logramos ponerle historia evolutiva a la taxonom ía, entonces los taxa relacionados tendrán caracteres en común. 
+- Al definir la relación de ancestro común nos permite crear un **significado evolutivo en los sistemas taxonómicos**. Si logramos ponerle historia evolutiva a la taxonomía, entonces los taxa relacionados tendrán caracteres en común. 
+
+>Un ejemplo sería la familia Russulaceae
+***Lactarius deliciosus***
+![Lactarius_deliciosus.jpg](Lactarius_deliciosus.jpg)
+***Lactifluus sudanicus***
+![Lactifluus-sudanicus.png](Lactifluus-sudanicus.png)
+***Russula brevipes***
+![Russula_brevipes.gif](Russula_brevipes.gif)
+***Russula romagnesiana***
+![Russula_romagnesiana.gif](Russula_romagnesiana.gif)
 
 - Una vez que se tiene definido cómo se hará el árbol, se puede complementar *anotando en las ramas los caracteres* de cada taxa.
 
