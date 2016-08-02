@@ -34,9 +34,13 @@ EJERCICIO: Ahora ustedes dibujen este árbol (H((GB)(F((EA)(DC)))))
 
 >Para hacer un buen *pruning* deben: 
 1) Encontrar un clado pequeño en el árbol y notar cuáles son las terminales incluidas. 
+
 2) Encontrar la menor parte del clado que incluya todas esas terminales. 
+
 3) Notar cualquiera de las terminales que están en el clado en el árbol grande que ahora no están incluidas en el árbol pequeño que generaron. 
+
 4) Si hay extra-terminales que quieren agregar al árbol pequeño entonces ya no es equiparable al árbol grande. 
+
 5) Si después de considerar todos los clados del árbol pequeño no se encuentra incompatibilidad, entonces el árbol pequeño es válido.
 
 ```
