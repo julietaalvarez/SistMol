@@ -79,8 +79,9 @@ EJERCICIO: Del árbol que dibujaron al principio, asuman que: F, E, A, D y C for
 - Cuando generamos varios árboles que nos cuentan diferentes historias evolutivas, podemos generar **árboles de consenso estricto**. Estos árboles son compuestos por clados que existen en todos los árboles. (dibujito)
 >Para interpretar de manera correcta la topología de un árbol cuando hay politomías, lo mejor es considerarlas como incertidumbres con una probabilidad de que se trate de unas politomías duras.
 - Cuando tenemos análisis con datos reales contamos con **niveles de soporte en cada rama**, que nos ayuda a inferir si las politomías son duras o suaves. Estos valores son anotaciones en el árbol que nos indican el grado de confianza.
-- La medida más comúnmente utilizada es el **porcentaje de *bootstrap*** (que va del 1 al 100%) y la **probabilidad posterior** (que va del 0 al 1.0)
+- La medida más comúnmente utilizada es el **porcentaje de** ***bootstrap*** (que va del 1 al 100%) y la **probabilidad posterior** (que va del 0 al 1.0)
 - Entre más grande sea el valor, mayor será su nivel de soporte de esa rama.
+
 >El ***threshold*** (valor de corte) es subjetivo, sin embargo la mayoría toma el >80% de bootstrap o >0.95 de probabilidad posterior, como un buen soporte.
 
 ![bootstrap1.png](bootstrap1.png)
