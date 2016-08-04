@@ -128,7 +128,7 @@ Ejercicio de alineamiento:
  ```
 1. Descargar el programa [PhyDE](http://www.phyde.de/download.html) e instalarlo
 2. Descargar el programa [Notepad ++](https://notepad-plus-plus.org/download/v6.9.2.html) e instalarlo
-3. Mientras se instalan bajen de *nucleotide NCBI* las secuencias en formato FASTA: KU985206,  KU248114, KU248106
+3. Mientras se instalan bajen de *nucleotide NCBI* las secuencias en formato FASTA: KU985206,  KU248114, KU248106, AB015700, KU985208, KU186823
 
 ![fasta.png](fasta.png)
 
