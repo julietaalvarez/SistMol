@@ -70,9 +70,28 @@ c) Algunas posiciones del DNA tienen mayores tasas de evolución
 
 
 
+
 ``` 
 Ejercicio
 ``` 
 1. Descarga [jModelTest](https://github.com/ddarriba/jmodeltest2) e instálalo
-2. Abre el archivo de las secuencias que alineamos previamente en formato NEXUS en jModelTest
-3. Ahora correremos un análisis para que seleccione los modelos de sustitución aptos para nuestra matriz.
+2. Abre el archivo de las secuencias que alineaste de tarea, conviértelo en formato NEXUS en Mesquite 
+3. Abre el archivo que acabas de generar en jModelTest
+4. Ahora correremos un análisis para que seleccione los modelos de sustitución aptos para su matriz.
+
+
+###5.2 Máxima verosimilitud###
+
+- Esta herramienta busca encontrar el árbol con mayor probabilidad de ser el adecuado para los datos observados.
+
+ ![moneda.png](moneda.png)
+
+- Explicado de manera sencilla, si lanzamos una moneda asumimos que hay una probabilidad de 1/2 para que caiga águila y que cada tiro es independiente del resultado anterior. Bajo este modelo nosotros estamos calculando el ***likelihood***, donde definimos la probabilidad bajo una hipótesis.
+- Si cae 10 veces águila, podemos generarnos la hipótesis de que la moneda es justa, donde el *likelihood* es 0.5^10 o ~0.00098.
+
+>OJO: esto no quiere decir que hay 0.1% de probabilidad de que caiga cara.
+ 
+- Si hipotetizamos que la moneda está cargada, el *likelihood* sería 0.75^10 o ~0.056. Este número es tan pequeño que resulta improbable que esté cargada.
+- Los datos son 0.056/0.00098, es decir que 56 veces es más probable que la moneda no esté cargada. A este cálculo lo llamamos ***likelihood ratio***, el cual generalmente lo presentan en logaritmo natural para no manejar números tan pequeños.
+- Entonces tendríamos ln(56)=4.02. En algunas circunstancias un *likelihood ratio* de 2.0 es equivalente a una P<0.5 de confianza.
+> Este ejemplo traducido a ingerencia filogenética: los resultados de tirar la moneda serían los caracteres que observamos de cada taxón y las hipótesis serían todos los árboles que generamos.
