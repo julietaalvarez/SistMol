@@ -22,7 +22,7 @@ Si observamos durante mucho tiempo la misma posición es probable que veamos los
 ![baraja2.png](baraja2.png)
 
 - Una de las metas de la inferencia filogenética es determinar hace cuánto un par de taxa compatieron a su ancestro en común, es decir, determinar la **distancia evolutiva** (el promedio de número de sustituciones que han ocurrido en una posición).
-- Para conocer esto debemos calcular cuál es la **probabilidad de observar un cambio en función de la tasa de sustitución *μ* y el tiempo *t* **. Entonces construimos una **matriz de la probabilidad de sustitución**
+- Para conocer esto debemos calcular cuál es la **probabilidad de observar un cambio en función de la tasa de sustitución *μ* y el tiempo *t***. Entonces construimos una **matriz de la probabilidad de sustitución**
 - Estas matrices se generan a través de cálculo y de álgebra de matrices.
 
 >Por ejemplo: esta matriz sería la resultante de nuestro ejemplo de la baraja
