@@ -46,7 +46,7 @@ c) Algunas posiciones del DNA tienen mayores tasas de evolución
 - La primera extensión del modelo JC fue permitir que las bases tuvieran diferentes frecuencias. Este modelo es llamado **F81** (Felsenstein 1981). 
 - La frecuencia la representaremos con ***π***. Como tenemos 4 bases, tenemos que la frecuencia de las bases (*π*A, *π*C, *π*G y *π*T) suman 1.0. Asumiento que tenemos una G en el tiempo 0 es igual a *π*G. Después de una mutación, la probabilidad de que la nueva base sea G es *π*G, otra vez. Esto significa que el número de mutaciones esperadas en un tiempo *μt*, es el producto de las frecuencias de la base inicial y final.
 
-![F81a.png](F81a.png)
+![F81.png](F81.png)
 
 - La matriz anterior nos muestra que da igual si pasamos de A a T o de T a A.  Sin embargo el F81, tiene una corrección donde utiliza la frecuencia de la base incial y la final.
 - Es decir que dependiendo de la frecuencia de A o de T, la matriz de sustitución será distinta.
