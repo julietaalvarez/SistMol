@@ -94,4 +94,22 @@ Ejercicio
 - Si hipotetizamos que la moneda está cargada, el *likelihood* sería 0.75^10 o ~0.056. Este número es tan pequeño que resulta improbable que esté cargada.
 - Los datos son 0.056/0.00098, es decir que 56 veces es más probable que la moneda no esté cargada. A este cálculo lo llamamos ***likelihood ratio***, el cual generalmente lo presentan en logaritmo natural para no manejar números tan pequeños.
 - Entonces tendríamos ln(56)=4.02. En algunas circunstancias un *likelihood ratio* de 2.0 es equivalente a una P<0.5 de confianza.
-> Este ejemplo traducido a ingerencia filogenética: los resultados de tirar la moneda serían los caracteres que observamos de cada taxón y las hipótesis serían todos los árboles que generamos.
+> Este ejemplo traducido a ingerencia filogenética: los resultados de tirar la moneda serían los caracteres que observamos de cada taxón y las hipótesis serían todos los árboles que generamos. El *likelihood* es el resultado de cada posición nucleotídica individual.
+
+- Los programas de computadora que generan análisis de máxima verosimilitud siguen 4 pasos:
+1) Un árbol, los parámetros (incluidos en largo de las ramas) y el *likelihood* de cada sitio (cada caracter) son determinados por la suma de todas las posibles historias para cada sitio.
+2) Los logaritmos de likelihood de cada sitio en la matriz son multiplicados para obtener el *likelihood* total de ese árbol bajo esos parámetros, para ese largo de ramas.
+3) El programa optimiza la longitud de las ramas y otros parámetros al cambiarlos iterativamente y repitiendo los pasos anteriores hasta maximizar el *likelihood*.
+4) Hace una búsqueda en el universo de árboles hasta encontrar el árbol con mayor *likelihood*.
+
+``` 
+Ejercicio
+``` 
+- Descarga [Phyton](https://www.python.org/downloads/) e instálalo
+- Descarga [RaxML](https://sourceforge.net/projects/raxmlgui/) e instálalo
+- Guarda tu matriz en la carpeta de RAXML y ahora ¡vamos a correr un ML!
+- Abre la matriz en formato PHYLIP con RAXML
+
+###5.3 Inferencia bayesiana###
+- La inferencia bayesiana es una de las herramientas más novedosas de la inferencia filogenética.
+- En ML se calcula la probabildad de que la evolución haya dado como resultado los datos observados. En **inferencia bayesiana** se calcula la probabilidad posterior, la probabilidad de que un árbol sea verdadero de acuerdo a los datos. 
