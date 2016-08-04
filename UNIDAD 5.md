@@ -54,3 +54,25 @@ c) Algunas posiciones del DNA tienen mayores tasas de evolución
 ![f81b.png](f81b.png)
 
 > La discrepancia radica en que si hay una sustitución "rara", va a tender a cambiar rápidamente a otra base; pero si hay una base común va a tender a permanecer sin cambios.
+
+
+- El **siguiente nivel de complejidad** involucra **diferentes tasas para diferentes tipos de sustitución**.
+- Volviendo al ejemplo de las cartas, imaginemos que es frecuente que exista una sustitución entre los palos rojos, y que sea poco probable que haya sustitución de un rojo por un negro.
+- Eso traducido al DNA es como generalmente funciona por su estructura bioquímica... las **transiciones** se dan de purina-purina o pirimidina-pirimidina y son más comunes en comparación con las **transversiones**, es decir de purinas a pirimidinas y viceversa. A este fenómeno se le conoce como ***transition:transversion bias***.
+- El método de acomodar la desigualdad en la tasa de la sustitución se hace para incluir un parámetro en el modelo que ajuste la tasa a cada uno de los cambios. Por ejemplo el modelo **HKY** (Hasegawa, Kishino y Yano 1985) que incluye desigualdad en la frecuencia de las bases y la *transition:transversion bias*.
+- Además de los modelos previamente mencionados, existen muchos más con diferentes variantes.
+- El modelo más complejo es el ***general time-reversible* (GTR)** donde incluye 4 tasas de transversión y 2 tasas de transición, más todo lo que incluyen los otros modelos.
+
+ ![modelos.png](modelos.png)
+
+- El principal defecto que tienen los modelos de sustitución es que asumen que las tasas de sustitución serán iguales para toda la región de DNA que analizamos, o para todos los genes que usamos.
+- Para eliminar este problema se han inventado herrmientas como las **particiones**, donde utilizamos diferentes modelos de sustitución por regiones. O tamién se han desarrollado programas que usan varios modelos a la vez [mixture models](https://www.researchgate.net/profile/Bernard_Moret/publication/37441572_Reconstructing_phylogenies_from_gene-content_and_gene-order_data/links/0deec532037f454ce9000000.pdf#page=148)  o [reversible-jump](http://www.jstor.org/stable/10.1086/503444?seq=1#page_scan_tab_contents).
+
+
+
+``` 
+Ejercicio
+``` 
+1. Descarga [jModelTest](https://github.com/ddarriba/jmodeltest2) e instálalo
+2. Abre el archivo de las secuencias que alineamos previamente en formato NEXUS en jModelTest
+3. Ahora correremos un análisis para que seleccione los modelos de sustitución aptos para nuestra matriz.
