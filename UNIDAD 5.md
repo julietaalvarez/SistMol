@@ -137,3 +137,9 @@ En total obtendríamos que 0.0281/0.0286 = 0.98 de que la moneda está cargada y
  ``` 
 Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)                                    
 ``` 
+
+- El reto más grande de esta herramienta es el cálculo de la probabilidad de los datos, ya que incluye la suma de todos los árboles. Y como anteriormente vimos, el número de topologías aumenta rápidamente conforme agregamos terminales.
+- Para superar este obstáculo se utiliza el método de las **cadenas de Markov Monte Carlo (MCMC)**. Este método va calculando la probabilidad de los datos entre el universo de los árboles hasta encontrar el que tenga mayor probabilidad (Pr(D|H)).
+- Una vez encontrada un alto valor de probabilidad posterior (PP), explora las opciones próximas a éste, en búsqueda de un mayor valor de PP; y después puede buscar valores con menos PP hasta encontrar de nuevo uno con alto valor de PP. 
+- El siguiente paso es proponer nuevas combinaciones de parámetros y calcular la probabilidad posterior. Este proceso de determinar nuevos parámetros se conoce como **MCMC generation**.
+- Mientras corremos miles de *generaciones de MCMC*, se van almacenando árboles que ya fueron explorados por las cadenas de Markov
