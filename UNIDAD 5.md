@@ -113,3 +113,17 @@ Ejercicio
 ###5.3 Inferencia bayesiana###
 - La inferencia bayesiana es una de las herramientas más novedosas de la inferencia filogenética.
 - En ML se calcula la probabildad de que la evolución haya dado como resultado los datos observados. En **inferencia bayesiana** se calcula la probabilidad posterior, la probabilidad de que un árbol sea verdadero de acuerdo a los datos. 
+
+
+- Pensemos que tenemos una bolsa llena de monedas donde hay monedas "justas" (50% águila) y monedas cargadas (75% águila). Cuando sacas una moneda no sabes si se trata de una moneda buena o cargada; por lo que al sacar una moneda de la bolsa asumes que habrá una **probabilidad *a priori*** de 0.5 que la moneda esté cargada. Después de lanzarla nosotros podemos usar los resultados para actualizar la probabilidad. Como esta información proviene despúes de haber obtenido los datos, se le conoce como **probabilidad posterior**.
+
+![bayes.gif](bayes.gif)
+
+- El reverendo Thomas Bayes desarrolló la fórmula para calcular la probabilidad posterior. 
+
+ ``` 
+Teorema de Bayes: Pr(H|D)= Pr(D|H) x Pr(H)/ Pr(D)
+
+Donde Pr es probabilidad, D es datos y H es hipótesis. 
+La línea vertical se lee "dada". Entonces Pr(H|D) se lee "La probabilidad de la hipótesis dados los datos"                                         
+``` 
