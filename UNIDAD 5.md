@@ -125,5 +125,15 @@ Ejercicio
 Teorema de Bayes: Pr(H|D)= Pr(D|H) x Pr(H)/ Pr(D)
 
 Donde Pr es probabilidad, D es datos y H es hipótesis. 
-La línea vertical se lee "dada". Entonces Pr(H|D) se lee "La probabilidad de la hipótesis dados los datos"                                         
+La línea vertical se lee "dada". Entonces Pr(H|D) se lee "La probabilidad de la hipótesis dados los datos"                                       
+``` 
+- Si aplicamos esta ecuación a los datos de la moneda que cayó 10 veces águila dada la hipótesis de que la moneda está cargada, Pr(H|D) es el *likelihood* (0.75^10 = 0.0563). La probabilidad a priori (Pr(H)) de que la moneda está cargada es 0.5. El numerador daría 0.0281.  
+- Para calcular la probabilidad a priori de los datos (Pr(D)) necesitamos determinar la P de obtener esos datos dada una hipótesis, y tendríamos que sumar todas las posibles hipótesis: 0.5 de que sea una moneda justa y 0.5^10  de que sea justa dados los resultados; 0.5 de que esté cargada y la probabilidad de que esté cargada dados los resultados 0.75^10. Esto sería: Pr(D)= 0.5 x (0.5^10 + 0.75^10) = 0.0286.
+En total obtendríamos que 0.0281/0.0286 = 0.98 de que la moneda está cargada y 2% de que sea una moneda justa.
+
+- Si esto lo aplicamos a inferencia filogenética:
+
+
+ ``` 
+Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)                                    
 ``` 
