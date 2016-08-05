@@ -184,9 +184,14 @@ Otro ejercicio
  ```
 1. Descarga el programa [Mesquite](http://mesquiteproject.wikispaces.com/installation) e instálalo
 2. Descarga el programa [TNT](http://www.zmuc.dk/public/phylogeny/tnt/) e instálalo
-3. El archivo de las secuencias de *Amanita* que previamente alineamos ábrelo con Mesquite y expórtalo como: "amanita.tnt"
-4. Guarda amanita.tnt en la carpeta de TNT. Abre TNT y carga el archivo amanita.tnt
-5. Ahora vamos a correr un análisis de parsimonia con *Traditional search* y otro con *New Technology search*. Nuestro grupo externo va a ser *Amanita muscaria*.
+3. Descarga el programa [FigTree]()
+4. El archivo de las secuencias de *Amanita* que previamente alineamos ábrelo con Mesquite y expórtalo como: "amanita.tnt"
+5. Guarda amanita.tnt en la carpeta de TNT. Abre TNT y carga el archivo amanita.tnt
+6. Ahora vamos a correr un análisis de parsimonia con *Traditional search* y otro con *New Technology search*. Nuestro grupo externo va a ser *Amanita muscaria*.
+7. Para obtener el índice de consistencia y el índice de retención copia el archivo "STATS.RUN" a la carpeta donde tienen el ejecutable de TNT y luego en la ventana agrega "proc STATS.RUN".
+8. Si queremos calcular el árbol de consenso estricto ponemos "nelsen*;"
+9. Para que nos muestre el árbol consenso en pantalla, debemos poner "tplot x;", donde "x" es el número del árbol indicado en el paso anterior.
+10. Teclea "export * zilla.nex;". para exportar el árbol y lo puedas abrir con FigTree. 
 
 ####4.5.3 Desventajas de la parsimonia####
 - No toma en cuenta la longitud de las ramas: si en la filogenia se encuentran ramas cortas y otras largas, la parsimonia cometerá errores como la **atracción de las ramas largas**. Y cometerá más errores conforme estas características aumenten.
