@@ -151,4 +151,8 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 
 1. Se debe escoger el modelo de sustitución previo al análisis, y este al igual en Máxima verosimilitud, se hacen calculando el likelihood ratio
 2. Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer información útil sobre la PP. Es decir, se necesitan cientos de generaciones para que encuentre los de mayor PP. A la etapa donde permanece en modo estacionario se le llama ***burn-in*** y es desechado después de terminar.
-3. Debes asegurarte que durante el periodo estacionario se esté explorando todos los parámetros del universo (de árboles)
+3. Debes asegurarte que durante el periodo estacionario se esté explorando todos los parámetros del universo (de árboles), a esto se le conoce como ***mixing***. Si las cadenas hacen un buen *mixing* entonces diferentes corridas convergirán en distribuciones.
+
+- MrBayes es uno de los mejores programas para haces estos análisis.
+- Este programa calcula la probabilidad de que los clados resultantes de cada árbol tengan **credibilidad de clado** (generalmente >0.95)
+- Al final se dibuja un árcol con todas las máximas PP (>0.5) y este es un **árbol Bayesiano consenso por regla de mayoría (Bayesian majority-rule consensus tree)**
