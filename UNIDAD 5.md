@@ -153,41 +153,39 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 
 ####5.3.1 Complicaciones del bayesiano####
 
-1. Se debe escoger el modelo de sustitución previo al análisis, y este al igual en Máxima verosimilitud, se hacen calculando el likelihood ratio
-2. Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer información útil sobre la PP. Es decir, se necesitan cientos de generaciones para que encuentre los de mayor PP. A la etapa donde permanece en modo estacionario se le llama ***burn-in*** y es desechado después de terminar.
-3. Debes asegurarte que durante el periodo estacionario se esté explorando todos los parámetros del universo (de árboles), a esto se le conoce como ***mixing***. Si las cadenas hacen un buen *mixing* entonces diferentes corridas convergirán en distribuciones.
+- Se debe escoger el modelo de sustitución previo al análisis, y este al igual en Máxima verosimilitud, se hacen calculando el likelihood ratio
+- Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer información útil sobre la PP. Es decir, se necesitan cientos de generaciones para que encuentre los de mayor PP. A la etapa donde permanece en modo estacionario se le llama ***burn-in*** y es desechado después de terminar.
+- Debes asegurarte que durante el periodo estacionario se esté explorando todos los parámetros del universo (de árboles), a esto se le conoce como ***mixing***. Si las cadenas hacen un buen *mixing* entonces diferentes corridas convergirán en distribuciones.
 
 
 
  ```
  Último Ejercicio
  ```
-- Con jMoldelTest corre un análisis donde obtenga el modelo de sustitución para "BIC" (Bayesian Inference)
-- Descarga [MrBayes](http://mrbayes.sourceforge.net/download.php) e instálalo
-- En Mesquite exporta tu matriz a extensión NEXUS
-- En Notepad++ abre tu "matriz.NEX" y **cambia** donde dice MISSING = - por MISSING = **?** y GUÁRDALO!
+1. Con jMoldelTest corre un análisis donde obtenga el modelo de sustitución para "BIC" (Bayesian Inference)
+2. Descarga [MrBayes](http://mrbayes.sourceforge.net/download.php) e instálalo
+3. En Mesquite exporta tu matriz a extensión NEXUS
+4. En Notepad++ abre tu "matriz.NEX" y **cambia** donde dice MISSING = - por MISSING = **?** y GUÁRDALO!
 ![missing.png](missing.png)
-- Copia tu archivo matriz.NEX a la carpeta donde se encuentra MrBayes
-- Abre MrBayes. Te darás cuenta que este programa no tiene una interfase muy amigable con el usuario, pero es fácil de usar:
-- Escribe: execute matriz.nex   Una vez hecho esto, va a desplegar tu matriz en la pantalla
+5. Copia tu archivo matriz.NEX a la carpeta donde se encuentra MrBayes
+6. Abre MrBayes. Te darás cuenta que este programa no tiene una interfase muy amigable con el usuario, pero es fácil de usar. Escribe: execute matriz.nex   Una vez hecho esto, va a desplegar tu matriz en la pantalla
 ![MrBayes.png](MrBayes.png)
-- Ahora escribe lo siguiente dando en cada línea un enter:
-- charset all=100
-- set partition=all
-- unlink revmat=(all)
-- unlink Tratio=(all)
-- unlink statefreq=(all)
-- unlink shape=(all)
-- unlink pinvar=(all)
-- outgroup NOMBREDELOUTGROUP    (Si tu outgroup es KU567F8_Amanita_blabla debes poner TODO el nombre completo)
-- lset applyto=(all) nst=1 rates=invgamma     (En "nst" uno debe escoger cuál es su modelo de sustitución: 1=JC o F81, 2= HKY o K80... 6=GTR)
-- prset applyto=(all) ratepr=variable
-- mcmc ngen=1000 relburnin=yes burninfrac=0.25 printfreq=500 samplefreq=100 nchains=4;
-
-- Van a darse cuenta que empiezan a aparecer números indicando en qué número de generación van... hasta que llegue a las **"ngen=1000"** se va a detener y va a aparecer: "Continue with analysis?" y debes poner **NO**
-- Cuando el programa haya acabado debes poner: SUMP burnin=2001;
-- Cuando termine de hacer esto ahora debes agregar PARA GENERAR EL **ÁRBOL CONSENSO**: SUMT burnin=2001 contype=halfcompat;
-- En la carpeta de MrBayes vas a encontrar archivos con diferentes terminaciones. Sólo el que dice  matriz.nex.con.tre lo van a abrir con FigTree.
-- Ahora puedes modificar todo lo que gustes en FigTree
+7. Ahora escribe lo siguiente dando en cada línea un enter:
+8. charset all=100
+9. set partition=all
+10. unlink revmat=(all)
+11. unlink Tratio=(all)
+12. unlink statefreq=(all)
+13. unlink shape=(all)
+14. unlink pinvar=(all)
+15. outgroup NOMBREDELOUTGROUP    (Si tu outgroup es KU567F8_Amanita_blabla debes poner TODO el nombre completo)
+16. lset applyto=(all) nst=1 rates=invgamma     (En "nst" uno debe escoger cuál es su modelo de sustitución: 1=JC o F81, 2= HKY o K80... 6=GTR)
+17. prset applyto=(all) ratepr=variable
+18. mcmc ngen=1000 relburnin=yes burninfrac=0.25 printfreq=500 samplefreq=100 nchains=4;
+19. Vas a darte cuenta que empiezan a aparecer números indicando en qué número de generación van... hasta que llegue a las **"ngen=1000"** se va a detener y va a aparecer: "Continue with analysis?" y debes poner **NO**
+20. Cuando el programa haya acabado debes poner: SUMP burnin=2001;
+21. Cuando termine de hacer esto ahora debes agregar PARA GENERAR EL **ÁRBOL CONSENSO**: SUMT burnin=2001 contype=halfcompat;
+22. En la carpeta de MrBayes vas a encontrar archivos con diferentes terminaciones. Sólo el que dice  matriz.nex.con.tre lo van a abrir con FigTree.
+23. Ahora puedes modificar todo lo que gustes en FigTree
 
 >OJO: este ejercicio es un ejemplo del código, si tienen más dudas deben buscar en la página de [MrBayes](http://mrbayes.sourceforge.net/commref_mb3.2.pdf)
