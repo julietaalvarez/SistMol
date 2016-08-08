@@ -143,3 +143,11 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 - Una vez encontrada un alto valor de probabilidad posterior (PP), explora las opciones próximas a éste, en búsqueda de un mayor valor de PP; y después puede buscar valores con menos PP hasta encontrar de nuevo uno con alto valor de PP. 
 - El siguiente paso es proponer nuevas combinaciones de parámetros y calcular la probabilidad posterior. Este proceso de determinar nuevos parámetros se conoce como **MCMC generation**.
 - Mientras corremos miles de *generaciones de MCMC*, se van almacenando árboles que ya fueron explorados por las cadenas de Markov
+- Cuando las MCMC corren, se pasan analizando la mayor parte del tiempo los mejores árboles en comparación con el tiempo que analizan los peores. 
+- Esto sucede porque a los algoritmos les toma más tiempo analizar árboles con menor probabilidad (los algoritmos les cuesta más trabajo bajar la cuesta).
+-	Las MCMC evalúan la PP de todos los parámetros de nuestro árbol (largo de ramas, *transition:transversion bias*, tasa de heterogeneidad en las secuencias, etc.).
+
+####5.3.1 Complicaciones del bayesiano####
+
+1. Se debe escoger el modelo de sustitución previo al análisis, y este al igual en Máxima verosimilitud, se hacen calculando el likelihood ratio
+2. Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer
