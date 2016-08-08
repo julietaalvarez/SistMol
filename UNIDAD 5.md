@@ -160,8 +160,33 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
  ```
  Ejercicio
  ```
-1. Descarga [MrBayes](http://mrbayes.sourceforge.net/download.php) e instálalo
-2. En Mesquite pasa tu matriz a extensión NEXUS
-3. En Notepad++ abre tu "matriz.NEX" y **cambia** donde dice MISSING = - por MISSING = **?**
+- Con jMoldelTest corre un análisis donde obtenga el modelo de sustitución para "BIC" (Bayesian Inference)
+- Descarga [MrBayes](http://mrbayes.sourceforge.net/download.php) e instálalo
+- En Mesquite exporta tu matriz a extensión NEXUS
+- En Notepad++ abre tu "matriz.NEX" y **cambia** donde dice MISSING = - por MISSING = **?** y GUÁRDALO!
 ![missing.png](missing.png)
-4. 
+- Copia tu archivo matriz.NEX a la carpeta donde se encuentra MrBayes
+- Abre MrBayes. Te darás cuenta que este programa no tiene una interfase muy amigable con el usuario, pero es fácil de usar:
+- Escribe: execute matriz.nex   Una vez hecho esto, va a desplegar tu matriz en la pantalla
+![MrBayes.png](MrBayes.png)
+- Ahora escribe lo siguiente dando en cada línea un enter:
+charset all=100
+set partition=all
+unlink revmat=(all)
+unlink Tratio=(all)
+unlink statefreq=(all)
+unlink shape=(all)
+unlink pinvar=(all)
+outgroup NOMBREDELOUTGROUP    (Si tu outgroup es KU567F8_Amanita_blabla debes poner TODO el nombre completo)
+lset applyto=(all) nst=1 rates=invgamma     (En "nst" uno debe escoger cuál es su modelo de sustitución: 1=JC o F81, 2= HKY o K80... 6=GTR)
+prset applyto=(all) ratepr=variable
+mcmc ngen=1000 relburnin=yes burninfrac=0.25 printfreq=500 samplefreq=100 nchains=4;
+end;
+
+- Van a darse cuenta que empiezan a aparecer números indicando en qué número de generación van... hasta que llegue a las **"ngen=1000"** se va a detener y va a aparecer: "Continue with analysis?" y debes poner **NO**
+- Cuando el programa haya acabado debes poner: SUMP burnin=2001;
+- Cuando termine de hacer esto ahora debes agregar PARA GENERAR EL **ÁRBOL CONSENSO**: SUMT burnin=2001 contype=halfcompat;
+- En la carpeta de MrBayes vas a encontrar archivos con diferentes terminaciones. Sólo el que dice  matriz.nex.con.tre lo van a abrir con FigTree.
+- Ahora puedes modificar todo lo que gustes en FigTree
+
+>OJO: este ejercicio es un ejemplo del código, si tienen más dudas deben buscar en la página de [MrBayes](http://mrbayes.sourceforge.net/commref_mb3.2.pdf)
