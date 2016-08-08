@@ -157,8 +157,10 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 2. Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer información útil sobre la PP. Es decir, se necesitan cientos de generaciones para que encuentre los de mayor PP. A la etapa donde permanece en modo estacionario se le llama ***burn-in*** y es desechado después de terminar.
 3. Debes asegurarte que durante el periodo estacionario se esté explorando todos los parámetros del universo (de árboles), a esto se le conoce como ***mixing***. Si las cadenas hacen un buen *mixing* entonces diferentes corridas convergirán en distribuciones.
 
+
+
  ```
- Ejercicio
+ Último Ejercicio
  ```
 - Con jMoldelTest corre un análisis donde obtenga el modelo de sustitución para "BIC" (Bayesian Inference)
 - Descarga [MrBayes](http://mrbayes.sourceforge.net/download.php) e instálalo
@@ -170,18 +172,17 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 - Escribe: execute matriz.nex   Una vez hecho esto, va a desplegar tu matriz en la pantalla
 ![MrBayes.png](MrBayes.png)
 - Ahora escribe lo siguiente dando en cada línea un enter:
-charset all=100
-set partition=all
-unlink revmat=(all)
-unlink Tratio=(all)
-unlink statefreq=(all)
-unlink shape=(all)
-unlink pinvar=(all)
-outgroup NOMBREDELOUTGROUP    (Si tu outgroup es KU567F8_Amanita_blabla debes poner TODO el nombre completo)
-lset applyto=(all) nst=1 rates=invgamma     (En "nst" uno debe escoger cuál es su modelo de sustitución: 1=JC o F81, 2= HKY o K80... 6=GTR)
-prset applyto=(all) ratepr=variable
-mcmc ngen=1000 relburnin=yes burninfrac=0.25 printfreq=500 samplefreq=100 nchains=4;
-end;
+- charset all=100
+- set partition=all
+- unlink revmat=(all)
+- unlink Tratio=(all)
+- unlink statefreq=(all)
+- unlink shape=(all)
+- unlink pinvar=(all)
+- outgroup NOMBREDELOUTGROUP    (Si tu outgroup es KU567F8_Amanita_blabla debes poner TODO el nombre completo)
+- lset applyto=(all) nst=1 rates=invgamma     (En "nst" uno debe escoger cuál es su modelo de sustitución: 1=JC o F81, 2= HKY o K80... 6=GTR)
+- prset applyto=(all) ratepr=variable
+- mcmc ngen=1000 relburnin=yes burninfrac=0.25 printfreq=500 samplefreq=100 nchains=4;
 
 - Van a darse cuenta que empiezan a aparecer números indicando en qué número de generación van... hasta que llegue a las **"ngen=1000"** se va a detener y va a aparecer: "Continue with analysis?" y debes poner **NO**
 - Cuando el programa haya acabado debes poner: SUMP burnin=2001;
