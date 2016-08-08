@@ -150,4 +150,5 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 ####5.3.1 Complicaciones del bayesiano####
 
 1. Se debe escoger el modelo de sustitución previo al análisis, y este al igual en Máxima verosimilitud, se hacen calculando el likelihood ratio
-2. Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer
+2. Las cadenas de Markov necesitan permanecer "estacionados" antes de proveer información útil sobre la PP. Es decir, se necesitan cientos de generaciones para que encuentre los de mayor PP. A la etapa donde permanece en modo estacionario se le llama ***burn-in*** y es desechado después de terminar.
+3. Debes asegurarte que durante el periodo estacionario se esté explorando todos los parámetros del universo (de árboles)
