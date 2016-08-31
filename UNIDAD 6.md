@@ -30,3 +30,5 @@ Estos son útiles como valores de soporte de los clados, sin embargo el número 
 - El *bootstrap* trata de evaluar sus posibilidades de recuperar un clado de nuevo si hemos si pudiéramos remuestrear un nuevo conjunto de caracteres.
 - Esta herramienta lo que genera es un remuestreo, con reemplazamiento, de los datos. A esto se le conoce como **pseudoréplicas** porque en realidad estamos tomando nuestros datos ya existentes y volvemos a tomarlos.
 - Como el *bootstrap* muestrea diferentes caracteres, puede dar resultados de un árbol óptimo diferente al árbol óptimo "original". Es decir, los árboles de máxima parsimonia y máxima verosimilitud pueden no corresponder con el árbol más óptimo encontrado por *bootstrap*
+- Entonces una vez hecho el *bootstrap*, se calcula el valor de *bootstrap* o su porcentaje.
+- Es común que en las publicaciones se muestre el **árbol consenso de *bootstrap***, que está compuesto por el árbol con mejores soportes de bootstrap en sus clados.
