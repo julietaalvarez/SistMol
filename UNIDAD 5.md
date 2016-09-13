@@ -172,7 +172,6 @@ Pr(Tree|Data)= Pr(Data|Tree) x Pr(Tree)/ Pr(Data)
 ![MrBayes.png](MrBayes.png)
 7. Ahora escribe lo siguiente dando en cada línea un enter:
 8. charset all=100
-9. set partition=all
 10. unlink revmat=(all)
 11. unlink Tratio=(all)
 12. unlink statefreq=(all)
